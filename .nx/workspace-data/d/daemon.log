@@ -470,3 +470,54 @@ Time for 'build typescript dependencies' 0.00995800003875047
 [NX v21.3.11 Daemon Server] - 2025-08-09T02:21:25.780Z - Done responding to the client project-graph
 [NX v21.3.11 Daemon Server] - 2025-08-09T02:21:25.780Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 2.
 [NX v21.3.11 Daemon Server] - 2025-08-09T02:21:25.781Z - Established a connection. Number of open connections: 2
+[NX v21.3.11 Daemon Server] - 2025-08-09T02:21:45.210Z - [WATCHER]: readme.md was modified
+[NX v21.3.11 Daemon Server] - 2025-08-09T02:21:45.210Z - [REQUEST]: Responding to the client. File watch changed
+[NX v21.3.11 Daemon Server] - 2025-08-09T02:21:45.210Z - Done responding to the client File watch changed
+[NX v21.3.11 Daemon Server] - 2025-08-09T02:21:45.210Z - Handled FILE-WATCH-CHANGED. Handling time: 0. Response time: 0.
+[NX v21.3.11 Daemon Server] - 2025-08-09T02:21:45.210Z - [WATCHER]: Processing file changes in outputs
+[NX v21.3.11 Daemon Server] - 2025-08-09T02:21:45.210Z - Time taken for 'changed-projects' 0.02275000000372529ms
+[NX v21.3.11 Daemon Server] - 2025-08-09T02:21:45.310Z - [REQUEST]: Updated workspace context based on watched changes, recomputing project graph...
+[NX v21.3.11 Daemon Server] - 2025-08-09T02:21:45.310Z - [REQUEST]: readme.md
+[NX v21.3.11 Daemon Server] - 2025-08-09T02:21:45.310Z - [REQUEST]: 
+[NX v21.3.11 Daemon Server] - 2025-08-09T02:21:45.311Z - Time taken for 'hash changed files from watcher' 0.1995829999796115ms
+Time for 'nx/core/project-json:createNodes' 0.16066599998157471
+Time for 'nx/core/package-json:createNodes' 1.7870830000028946
+Time for 'nx/js/dependencies-and-lockfile:createNodes' 1.8397499999846332
+[NX v21.3.11 Daemon Server] - 2025-08-09T02:21:45.315Z - Time taken for 'build-project-configs' 3.614624999987427ms
+Time for 'build typescript dependencies' 0.008333000005222857
+[NX v21.3.11 Daemon Server] - 2025-08-09T02:21:45.322Z - Wrote project graph cache to /Users/user/Private/lerna-example/.nx/workspace-data/project-graph.json
+[NX v21.3.11 Daemon Server] - 2025-08-09T02:21:45.322Z - [SYNC]: collect registered sync generators
+[NX v21.3.11 Daemon Server] - 2025-08-09T02:21:45.322Z - [SYNC]: project graph hash is the same, not collecting task sync generators
+[NX v21.3.11 Daemon Server] - 2025-08-09T02:21:45.322Z - [SYNC]: nx.json hash is the same, not collecting global sync generators
+[NX v21.3.11 Daemon Server] - 2025-08-09T02:21:45.322Z - Time taken for 'total execution time for createProjectGraph()' 4.390167000005022ms
+[NX v21.3.11 Daemon Server] - 2025-08-09T02:21:46.217Z - Established a connection. Number of open connections: 3
+[NX v21.3.11 Daemon Server] - 2025-08-09T02:21:46.219Z - [REQUEST]: Client Request for Project Graph Received
+[NX v21.3.11 Daemon Server] - 2025-08-09T02:21:46.220Z - Reusing in-memory cached project graph because no files changed.
+[NX v21.3.11 Daemon Server] - 2025-08-09T02:21:46.220Z - [REQUEST]: Responding to the client. project-graph
+[NX v21.3.11 Daemon Server] - 2025-08-09T02:21:46.222Z - Time taken for 'total for creating and serializing project graph' 0.8856670000241138ms
+[NX v21.3.11 Daemon Server] - 2025-08-09T02:21:46.222Z - Closed a connection. Number of open connections: 2
+[NX v21.3.11 Daemon Server] - 2025-08-09T02:21:46.225Z - Done responding to the client project-graph
+[NX v21.3.11 Daemon Server] - 2025-08-09T02:21:46.225Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 1. Response time: 5.
+[NX v21.3.11 Daemon Server] - 2025-08-09T02:21:46.228Z - [REQUEST]: Responding to the client. handleContextFileData
+[NX v21.3.11 Daemon Server] - 2025-08-09T02:21:46.228Z - Done responding to the client handleContextFileData
+[NX v21.3.11 Daemon Server] - 2025-08-09T02:21:46.228Z - Handled GET_CONTEXT_FILE_DATA. Handling time: 0. Response time: 0.
+[NX v21.3.11 Daemon Server] - 2025-08-09T02:21:46.229Z - Closed a connection. Number of open connections: 1
+[NX v21.3.11 Daemon Server] - 2025-08-09T02:21:46.233Z - Closed a connection. Number of open connections: 0
+[NX v21.3.11 Daemon Server] - 2025-08-09T02:21:46.233Z - Established a connection. Number of open connections: 1
+[NX v21.3.11 Daemon Server] - 2025-08-09T02:21:46.233Z - Established a connection. Number of open connections: 2
+[NX v21.3.11 Daemon Server] - 2025-08-09T02:21:46.233Z - Closed a connection. Number of open connections: 1
+[NX v21.3.11 Daemon Server] - 2025-08-09T02:21:46.234Z - Established a connection. Number of open connections: 2
+[NX v21.3.11 Daemon Server] - 2025-08-09T02:21:46.234Z - Closed a connection. Number of open connections: 1
+[NX v21.3.11 Daemon Server] - 2025-08-09T02:21:46.234Z - [REQUEST]: Client Request for Project Graph Received
+[NX v21.3.11 Daemon Server] - 2025-08-09T02:21:46.234Z - Reusing in-memory cached project graph because no files changed.
+[NX v21.3.11 Daemon Server] - 2025-08-09T02:21:46.234Z - [REQUEST]: Responding to the client. project-graph
+[NX v21.3.11 Daemon Server] - 2025-08-09T02:21:46.234Z - Time taken for 'total for creating and serializing project graph' 0.1431250000023283ms
+[NX v21.3.11 Daemon Server] - 2025-08-09T02:21:46.236Z - Done responding to the client project-graph
+[NX v21.3.11 Daemon Server] - 2025-08-09T02:21:46.236Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 2.
+[NX v21.3.11 Daemon Server] - 2025-08-09T02:21:46.237Z - [REQUEST]: Client Request for Project Graph Received
+[NX v21.3.11 Daemon Server] - 2025-08-09T02:21:46.237Z - Reusing in-memory cached project graph because no files changed.
+[NX v21.3.11 Daemon Server] - 2025-08-09T02:21:46.237Z - [REQUEST]: Responding to the client. project-graph
+[NX v21.3.11 Daemon Server] - 2025-08-09T02:21:46.238Z - Time taken for 'total for creating and serializing project graph' 0.1315830000094138ms
+[NX v21.3.11 Daemon Server] - 2025-08-09T02:21:46.239Z - Done responding to the client project-graph
+[NX v21.3.11 Daemon Server] - 2025-08-09T02:21:46.239Z - Handled REQUEST_PROJECT_GRAPH. Handling time: 0. Response time: 2.
+[NX v21.3.11 Daemon Server] - 2025-08-09T02:21:46.241Z - Established a connection. Number of open connections: 2

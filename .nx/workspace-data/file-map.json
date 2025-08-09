@@ -1,0 +1,86 @@
+{
+  "version": "6.0",
+  "nxVersion": "21.3.11",
+  "pathMappings": {},
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "nonProjectFiles": [
+      {
+        "file": "readme.md",
+        "hash": "6399657927303941586"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "16722851342459420272"
+      },
+      {
+        "file": "package.json",
+        "hash": "155428967329598465"
+      },
+      {
+        "file": "lerna.json",
+        "hash": "10010256335013790573"
+      },
+      {
+        "file": "pnpm-workspace.yaml",
+        "hash": "414265049992887245"
+      },
+      {
+        "file": "pnpm-lock.yaml",
+        "hash": "7742238229599297898"
+      },
+      {
+        "file": "nx.json",
+        "hash": "17159683830739070313"
+      }
+    ],
+    "projectFileMap": {
+      "a": [
+        {
+          "file": "packages/a/README.md",
+          "hash": "17002001921416591732"
+        },
+        {
+          "file": "packages/a/__tests__/a.test.js",
+          "hash": "11292944064037016848"
+        },
+        {
+          "file": "packages/a/lib/a.js",
+          "hash": "1312032867556409687"
+        },
+        {
+          "file": "packages/a/main.js",
+          "hash": "8856581315783369782"
+        },
+        {
+          "file": "packages/a/package.json",
+          "hash": "10971010348102853455",
+          "deps": [
+            "b"
+          ]
+        }
+      ],
+      "b": [
+        {
+          "file": "packages/b/README.md",
+          "hash": "7896783350214521062"
+        },
+        {
+          "file": "packages/b/__tests__/b.test.js",
+          "hash": "274076562486379892"
+        },
+        {
+          "file": "packages/b/lib/b.js",
+          "hash": "14019381028140137963"
+        },
+        {
+          "file": "packages/b/package.json",
+          "hash": "1143378493067404224",
+          "deps": [
+            "npm:axios"
+          ]
+        }
+      ]
+    }
+  }
+}

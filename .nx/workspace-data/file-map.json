@@ -6,8 +6,24 @@
   "fileMap": {
     "nonProjectFiles": [
       {
+        "file": "nx.json",
+        "hash": "17159683830739070313"
+      },
+      {
+        "file": "lerna.json",
+        "hash": "10010256335013790573"
+      },
+      {
+        "file": "pnpm-lock.yaml",
+        "hash": "7742238229599297898"
+      },
+      {
         "file": "readme.md",
-        "hash": "6399657927303941586"
+        "hash": "17903490964274944244"
+      },
+      {
+        "file": "pnpm-workspace.yaml",
+        "hash": "414265049992887245"
       },
       {
         "file": ".gitignore",
@@ -16,22 +32,6 @@
       {
         "file": "package.json",
         "hash": "155428967329598465"
-      },
-      {
-        "file": "lerna.json",
-        "hash": "10010256335013790573"
-      },
-      {
-        "file": "pnpm-workspace.yaml",
-        "hash": "414265049992887245"
-      },
-      {
-        "file": "pnpm-lock.yaml",
-        "hash": "7742238229599297898"
-      },
-      {
-        "file": "nx.json",
-        "hash": "17159683830739070313"
       }
     ],
     "projectFileMap": {
